@@ -95,7 +95,7 @@ public class ConfigFile {
 	
 	/**
 	 * @since 1.0.0
-	 * @return The FileConfiguration
+	 * @return The FileConfiguration object.
 	 * This returns the actual FileConfiguration object of the config file.
 	 */
 	public FileConfiguration getConfig() {

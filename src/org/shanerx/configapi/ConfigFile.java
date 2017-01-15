@@ -234,12 +234,5 @@ public class ConfigFile {
 
 		return config.contains(value);
 	}
-	
-	public boolean contains(String value, boolean b) {
-
-		return config.contains(value, b);
-	}
-	
-	
-	
+		
 }

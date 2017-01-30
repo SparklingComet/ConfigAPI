@@ -130,7 +130,14 @@ public class ConfigFile {
 	 * This sets the default configuration values as the ones contained in the map.
 	 */
 	public void addDefaults(Map<String,Object> defaults) {
-		config.addDefaults(defaults);
+		for (String s : defaults.keySet()) {
+			this.config.set(s, defaults.get(s));
+			try {
+				config.save(configFile);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
 
 	}
 	

@@ -36,7 +36,7 @@ public class ConfigFile {
 		fileName.append(name).append(".yml");
 		this.name = fileName.toString();
 		
-		configFile = new File(pluginDataFolder, name);
+		configFile = new File(pluginDataFolder, this.name);
 		this.pluginDataFolder = pluginDataFolder;
 		config = YamlConfiguration.loadConfiguration(configFile);
 		

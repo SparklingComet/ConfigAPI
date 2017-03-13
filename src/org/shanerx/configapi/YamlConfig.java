@@ -16,7 +16,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
  * 
  * This software is open source and free. You may use it for every need without explicit permission from the author. This includes adaptations, modifications and commercial use.
  */
-public class ConfigFile {
+public class YamlConfig {
 
 	private File configFile;
 	private FileConfiguration config;
@@ -30,7 +30,7 @@ public class ConfigFile {
 	 * 
 	 * Please notice that the constructor does not yet create the YAML-configuration file. To create the file on the disk, use {@link ConfigFile#createConfig()}.
 	 */
-	public ConfigFile(File pluginDataFolder, String name) {
+	public YamlConfig(File pluginDataFolder, String name) {
 		
 		StringBuilder fileName = new StringBuilder();
 		fileName.append(name).append(".yml");

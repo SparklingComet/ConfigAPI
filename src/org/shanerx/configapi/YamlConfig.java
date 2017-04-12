@@ -222,9 +222,6 @@ public class YamlConfig {
 			throw new IOException("Sub directory already existing.");
 		}
 		
-		if (!subDir.isDirectory()) {
-			throw new IOException("The first argument is not a directory.");
-		}
 		subDir.mkdir();
 	}
 	

@@ -17,7 +17,7 @@ import org.json.simple.parser.ParseException;
 
 /**
  * @author Lori00
- * @version 2.0.0
+ * @version 2.0.1
  * 
  * This small collection of methods has been created by @Lori00.
  * Creation date: 14-03-2017
@@ -161,10 +161,6 @@ public class JsonConfig {
 		
 		if (subDir.exists()) {
 			throw new IOException("Sub directory already existing.");
-		}
-		
-		if (!subDir.isDirectory()) {
-			throw new IOException("The first argument is not a directory.");
 		}
 		subDir.mkdir();
 	}

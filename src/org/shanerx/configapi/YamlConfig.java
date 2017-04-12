@@ -9,7 +9,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 
 /**
  * @author Lori00
- * @version 2.0.0
+ * @version 2.0.1
  * 
  * This small collection of methods has been created by @Lori00.
  * Creation date: 22-12-2016

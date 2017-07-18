@@ -1,47 +1,32 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Compiled binaries
+/target/
+*.class
+/bin/
 
-# Folder config file
-Desktop.ini
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Redundant Gradle files
+/.gradle/
+/build/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# IntelliJ IDEA project files
+/.idea/
+*.iml
 
-# Windows shortcuts
-*.lnk
+# Eclipse project files
+/.settings/
+.classpath
+.project
 
-# =========================
-# Operating System Files
-# =========================
+# Redundant Maven files
+dependency-reduced-pom.xml
 
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Temporary and log files
+**/temp.**
+*.log

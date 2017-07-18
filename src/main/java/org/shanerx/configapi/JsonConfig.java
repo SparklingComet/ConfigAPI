@@ -8,8 +8,6 @@ import java.io.PrintWriter;
 import java.util.Collection;
 import java.util.Map;
 
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;

@@ -5,6 +5,6 @@ Due to the insane amount of questions of the type "How do I create 'custom' conf
 
 To write/read from the config file, use ``YamlConfig.getConfig().set(String, Object)`` and ``YamlConfig.getConfig().get(String)``.
 
-The original thread can be found on [SpigotMC](https://www.spigotmc.org/threads/api-multiple-configuration-files-and-directories.202492/) and the online api docs can either be downloaded [here](https://www.github.com/ShanerX/ConfigAPI/tree/master/doc) or viewed online [on this page](https://shanerx.github.io/ConfigAPI/doc/).
+The original thread can be found on [SpigotMC](https://www.spigotmc.org/threads/api-multiple-configuration-files-and-directories.202492/) and the online api docs can either be downloaded [here](https://www.github.com/SparklingComet/ConfigAPI/tree/master/doc) or viewed online [on this page](https://SparklingComet.github.io/ConfigAPI/doc/).
 
 *Current version:* ***2.0.1_2**
